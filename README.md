@@ -25,7 +25,7 @@ sudo npm install --global gulp-cli
 
 **We highly recommand to use this file tree**
 
-But you also can set your own paths configurations in `config/general.config.js` 
+But you also can set your own configurations in `config/general.config.js` 
 
 ```
 project
