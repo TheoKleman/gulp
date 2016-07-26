@@ -60,3 +60,7 @@ project
 ## 3. Run tasks
 
 Simply run `gulp` on your terminal
+
+## 4. Contributors
+
+[Romain Billard](https://github.com/rmnbrd/) & [Théo Kleman](https://github.com/TheoKleman/)
