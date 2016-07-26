@@ -9,7 +9,7 @@ First, you need a recent installation of [nodejs](http://nodejs.org/).
 Then, you can install Node dependencies needed for this starter
 
 ```shell
-cd <this repo>
+cd {this repository}
 npm install
 ```
 
@@ -35,7 +35,7 @@ project
 │
 └───gulp
 │   │   
-│   └─ <this repository>
+│   └─ ***this repository***
 │       
 │
 ├───src
