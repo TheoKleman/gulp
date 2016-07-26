@@ -33,9 +33,9 @@ project
 │   .gitignore
 │   ...
 │
-└───gulp
-│   │   
-│   └─ ***this repository***
+└─── {this repository}
+│      
+│   
 │       
 │
 ├───src
