@@ -4,7 +4,7 @@
 
 First of all, **we highly recommand to use this file tree**
 
-But you also can set your own file configuration in `config/general.js` 
+But you also can set your own paths configurations in `config/general.config.js` 
 
 ```
 project
