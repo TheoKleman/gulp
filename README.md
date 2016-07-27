@@ -2,9 +2,15 @@
 
 ## 1. Requirement and installation
 
+### Clone repository
+
+First of all, clone this repository on a empty project folder
+
+`git clone https://github.com/TheoKleman/gulp.git`
+
 ### NodeJS
 
-First, you need a recent installation of [nodejs](http://nodejs.org/).
+You need a recent installation of [nodejs](http://nodejs.org/).
 
 Then, you can install Node dependencies needed for this starter
 
