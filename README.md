@@ -15,7 +15,7 @@ You need a recent installation of [nodejs](http://nodejs.org/).
 Then, you can install Node dependencies needed for this starter
 
 ```shell
-cd {this repository}
+cd {path/to/this_repository}
 npm install
 ```
 
