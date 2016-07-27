@@ -1,6 +1,6 @@
 #Gulp starter
 
-## 1. Requirement and installation
+## 1. Requirements and installation
 
 ### Clone repository
 
@@ -31,10 +31,8 @@ sudo npm install --global gulp-cli
 
 **We highly recommand to use this file tree**
 
-But you also can set your own configurations in `config/general.config.js` 
-
 ```
-project
+your_awesome_project
 │   README.md
 │   .gitignore
 │   ...
@@ -47,21 +45,23 @@ project
 ├───src
 │   │
 │   ├─── scripts
-│   │    ...
+│   │    ... where you write .es6 files
 │   │
 │   └─── styles
-│        ...    
+│        ... where you write .scss files
 │
 └─── build
 	│   index.html
 	│   ...
 	│
 	├─── js
-	│    ...
+	│    ... where your .es6 files are compiled
 	│
 	└─── css
-		 ...
+		 ... where your .scss files are compiled
 ```
+
+But you also can set your own configurations in `config/general.config.js` 
 
 ## 3. Run tasks
 
