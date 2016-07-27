@@ -10,7 +10,13 @@ First of all, clone this repository on a empty project folder
 
 ### NodeJS
 
-You need a recent installation of [nodejs](http://nodejs.org/).
+You need a **recent installation of [nodejs](http://nodejs.org/)**. If you need to update it follow theses instructions
+
+```shell
+sudo npm cache clean -f
+sudo npm install -g n
+sudo n stable
+```
 
 Then, you can install Node dependencies needed for this starter
 
