@@ -1,15 +1,27 @@
 #Gulp starter
 
-## 1. Requirement and installation
+## 1. Requirements and installation
+
+### Clone repository
+
+First of all, clone this repository on a empty project folder
+
+`git clone https://github.com/TheoKleman/gulp.git`
 
 ### NodeJS
 
-First, you need a recent installation of [nodejs](http://nodejs.org/).
+You need a **recent installation of [nodejs](http://nodejs.org/)**. If you need to update it follow theses instructions
+
+```shell
+sudo npm cache clean -f
+sudo npm install -g n
+sudo n stable
+```
 
 Then, you can install Node dependencies needed for this starter
 
 ```shell
-cd {this repository}
+cd {path/to/this_repository}
 npm install
 ```
 
@@ -25,38 +37,42 @@ sudo npm install --global gulp-cli
 
 **We highly recommand to use this file tree**
 
-But you also can set your own paths configurations in `config/general.config.js` 
-
 ```
-project
+your_awesome_project
 │   README.md
 │   .gitignore
 │   ...
 │
-└───gulp
-│   │   
-│   └─ ***this repository***
+└─── {this repository}
+│      
+│   
 │       
 │
 ├───src
 │   │
 │   ├─── scripts
-│   │    ...
+│   │    ... where you write .es6 files
 │   │
 │   └─── styles
-│        ...    
+│        ... where you write .scss files
 │
 └─── build
-    │   index.html
-    │   ...
-    │
-    ├─── js
-    │    ...
-    │
-    └─── css
-         ...      
+	│   index.html
+	│   ...
+	│
+	├─── js
+	│    ... where your .es6 files are compiled
+	│
+	└─── css
+		 ... where your .scss files are compiled
 ```
+
+But you also can set your own configurations in `config/general.config.js` 
 
 ## 3. Run tasks
 
 Simply run `gulp` on your terminal
+
+## 4. Contributors
+
+[Romain Billard](https://github.com/rmnbrd/) & [Théo Kleman](https://github.com/TheoKleman/)
