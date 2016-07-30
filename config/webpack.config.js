@@ -24,9 +24,9 @@ module.exports = {
 		]
 	},
 	resolve: {
-		extensions: ['', '.es6'],
+		extensions: ['', '.js', '.es6'],
 		root: [
 			path.resolve(config.scripts.inputPath)
-		]
+		],
 	},
 }
