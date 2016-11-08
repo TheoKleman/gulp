@@ -4,7 +4,7 @@ var config = require('./general.config.js')
 let path = require('path')
 
 module.exports = {
-	devtool: 'cheap-module-eval-source-map',
+	devtool: 'source-map',
 	entry: {
 		app: config.scripts.inputPath + '/' + config.scripts.entry,
 	},
