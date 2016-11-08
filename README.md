@@ -51,7 +51,7 @@ your_awesome_project
 │        ... where you write .scss files
 │
 └─── build
-	│   index.html
+	│   index.html (file you must write)
 	│   ...
 	│
 	├─── js

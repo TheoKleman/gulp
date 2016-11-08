@@ -2,14 +2,14 @@ module.exports = {
 	allowNotifications: true,
 	scripts: {
 		entry: 'main.es6',
-		inputPath: './src/scripts',
-		outputPath: './build/js',
+		inputPath: '../src/scripts',
+		outputPath: '../build/js',
 		outputName: 'main'
 	},
 	styles: {
 		entry: 'main.scss',
-		inputPath: './src/styles',
-		outputPath: './build/css'
+		inputPath: '../src/styles',
+		outputPath: '../build/css'
 	},
 	browserSync: {
 		proxy: "project.dev",
