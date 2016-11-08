@@ -16,10 +16,7 @@ module.exports = {
 			{
 				test: /\.es6?$/,
 				exclude: /(node_modules|bower_components)/,
-				loader: 'babel',
-				query: {
-					presets: ['es2015']
-				}
+				loader: 'babel'
 			}
 		]
 	},
