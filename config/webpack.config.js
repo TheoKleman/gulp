@@ -1,7 +1,7 @@
 // Require config
-var config = require('./general.config.js')
+var config = require('./general.config.js');
 
-let path = require('path')
+let path = require('path');
 
 module.exports = {
 	devtool: 'source-map',
